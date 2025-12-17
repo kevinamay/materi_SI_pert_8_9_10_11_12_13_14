@@ -1,0 +1,33 @@
+dari latihan array halaman 50 jadikan latihan tersebut menjadi array 2 dimensi ,
+dengan dimensi baru bernama nilai kemudian buat menu sederhana 
+1. input data 
+2. tampil data 
+3. keluar
+Catatan : tugas tersebut menggunakan array, scanner , do-while, switch case
+
+// code latihan halaman 50
+double [] data = new double [10];
+int [] nilai = new int [10];
+int i , jumdata;
+String str;
+char jawab ;
+Scanner scan = new Scanner (System.in);
+jumdata =0;
+for(i=0; i<data.length; i++){
+    System.out.print("Masukkan bilangan =" );
+    data [i] = scan.nextDouble();
+    scan.nextLine();
+if (i < data.length -2){
+    System.out.print("Tambah Y/T = ");
+    str = scan.nextLine();
+    jawab = str.charAt(0);
+    if (jawab == 'T' || jawab == 't'){
+        jumdata = i +1;
+    }
+}
+}
+for (i=0; i<jumdata; i++){
+    System.out.println("indeks ke - " + i + " menyimpan data " + data [i]);
+    }
+}
+}

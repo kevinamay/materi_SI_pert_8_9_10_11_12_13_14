@@ -1,0 +1,11 @@
+jadikan inputan scanner dari quiz hari ini 
+soal quiz hari ini (
+
+//CONTOH 3
+int [] nilai = {80,90,30,55,65};
+int [] npm = {0,10,20,30,40};
+for(int k=0;k<5;k++){
+System.out.println("index ke - "+k+": "+npm[k]);
+System.out.println("npm ke - "+k+": "+nilai[k]);}
+
+)
