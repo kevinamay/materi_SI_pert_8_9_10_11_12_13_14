@@ -1,0 +1,7 @@
+BUATLAH CODINGAN PENERAPAN STACK:
+1. PUSH (Method untuk menambahkan data ke stack ) , 
+2. POP (Method untuk menghapus dan mengambil data teratas),
+3. PEEK (Method untuk melihat data teratas tanpa menghapus)
+4. Method untuk mengecek apakah stack kosong
+5. Method untuk mengecek apakah stack penuh
+DENGAN INPUT ARRAY MENGGUNAKAN NAMA SENDIRI CONTOH KEVINA.
